@@ -12,7 +12,7 @@ function findMinAndRemove(array){
 }
 
 function insertionSort(array){
-  sorted = []
+  let sorted = []
   while (array.length !== 0) {
     sorted.push(findMinAndRemove(array))
   }
